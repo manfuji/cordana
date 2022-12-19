@@ -108,7 +108,7 @@ const DetailPage = () => {
         <div className="flex flex-col items-center justify-center gap-4">
           {singlePost ? (
             <>
-              <div className=" relative ">
+              <div className=" relative mt-80 lg:mt-64">
                 <img
                   className="m-auto h-1/2 w-[90%]"
                   src={singlePost?.postImage}
