@@ -104,7 +104,7 @@ const DetailPage = () => {
   console.log(user)
   return (
     <div className="mx-auto flex h-screen max-w-3xl flex-1 items-center justify-center">
-      <div className="mt-5 flex h-full w-[90%] items-center justify-center rounded-xl shadow-xl duration-300 ease-in">
+      <div className="mt-5 flex h-full w-[90%] items-center justify-center rounded-xl duration-300 ease-in">
         <div className="flex flex-col items-center justify-center gap-4">
           {singlePost ? (
             <>
