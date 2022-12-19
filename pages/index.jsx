@@ -14,7 +14,7 @@ const Home = () => {
 
       <main className="">
         <Main />
-        <div className="mt-32" />
+        <div className="mt-32 md:mt-24" />
         <About />
         <BlogPost />
         <Projects />
